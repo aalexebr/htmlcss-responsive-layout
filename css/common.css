@@ -26,3 +26,26 @@ img{
     border-radius: 1rem;
 
 }
+
+
+.card,
+.big-card{
+    width: calc(100% - 1rem);
+    background-color: #B5DDFF;
+    margin: 0.5rem;
+    border-radius: 0.65rem;
+    padding: 1rem;
+}
+
+.card{
+    text-align: center;
+}
+
+
+.info *,
+.card *{
+    margin: 0.656rem 0;
+}
+img{
+    display: block;
+}
