@@ -9,18 +9,26 @@
  
 /* HEADER */
 header{
-    background-color: blue;
+    background-color: #0084FD;
     color: white;
     padding: 0.5rem;
 
 }
+header .logo{
+    width: 2.5rem;
+}
+
 nav{
     display: none;
 }
 header .row{
     justify-content: space-between;
+    align-items: center;
 }
-
+header .button{
+    background-color: white;
+    color: black;
+}
 
 /* MAIN */
 
@@ -34,7 +42,7 @@ section .row{
 .card,
 .big-card{
     width: calc(100% - 1rem);
-    background-color: lightblue;
+    background-color: #B5DDFF;
     margin: 0.5rem;
     border-radius: 0.65rem;
     padding: 0.5rem;
@@ -54,7 +62,7 @@ section .row{
     text-align: center;
 }
 .businesscard.card{
-    background-color: lightcoral;
+    background-color: #9792E4;
 }
 .businesscard .img{
     border-radius: 50%;
@@ -67,6 +75,21 @@ section .row{
     background-color: white;
 }
 
+
+/* FOOTER */
+footer{
+    text-align: center;
+    color: white;
+}
+.top-footer{
+    background-color: #9792E4;
+}
+.bottom-footer{
+    background-color: #333333;
+}
+.top-footer span{
+    display: block;
+}
 
 
 /* 
