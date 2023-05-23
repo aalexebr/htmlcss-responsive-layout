@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 /* DEBUG */
 
@@ -68,11 +69,15 @@ section .row{
 .section-2 .card{
     align-self: flex-end;
     background-color: white;
-}
-.section-2 .card .button{
-    background-color: #9792E4;
     
 }
+.section-2 .card img{
+    position: relative;
+    top: 0;
+    left: 50%;
+    transform: translate(-50% , 0);
+}
+
 
 /* section 3 */
 .section-3 div{
@@ -81,7 +86,6 @@ section .row{
 
 .section-3 h2{
     color: #9792E4;
-    font-size: 2rem;
 }
 .section-3 span{
     text-transform: uppercase;
@@ -97,27 +101,45 @@ section .row{
     background-color: #9792E4;
     color: white;
 }
-.businesscard .profile,
+
 .businesscard .info{
     width: 100%;
 }
 
-.businesscard .img{
+ /* .profile{
     width: 10rem;
     height: 10rem;
     border-radius: 50%;
     background-position: center center;
     background-size: cover;
 
-}
-.businesscard .img.img1{
+} */
+.businesscard .profile.img1{
     background-image: url('../img/testimonial1.jpg');
 }
-.businesscard .img.img2{
+.businesscard .profile.img2{
     background-image: url('../img/testimonial2.jpg');
 }
-.businesscard .img.img3{
+.businesscard .profile.img3{
     background-image: url('../img/testimonial3.jpg');
+}
+
+
+
+/* section4 */
+.section-4 .card{
+    text-align: start;
+}
+.section-4 .card span:first-of-type{
+    font-size: 4rem;
+    color: #9792E4;
+}
+.section-4 .card h3{
+    color: #9792E4;
+}
+.section-4 .card .button{
+    color: white;
+    padding: 0.3rem 2rem;
 }
 
 /* section5 */
@@ -125,6 +147,24 @@ section .row{
 .section-5 .big-card,
 .section-5 .card{
     background-color: white;
+}
+.profile.img4{
+    background-image: url('../img/about.jpg');
+    position: relative;
+    top: 0;
+    left: 50%;
+    transform: translate(-50% , 0);
+}
+.profile.img4 i{
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #9792E4;
+    font-size: 2rem;
+}
+.section-5 .button{
+    background-color: #9792E4;
+    color: white;
 }
 
 
@@ -164,14 +204,11 @@ footer{
 }
 
 
+/* section2 */
+
+
 /* section3 */
 
-/* .businesscard{
-    display: flex;
-} */
-.businesscard .profile{
-    width: 25%;
-}
 .businesscard .info{
     width: 75%;
     align-self: center;
