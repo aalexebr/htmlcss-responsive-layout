@@ -32,16 +32,15 @@ header .button{
 
 /* MAIN */
 
-section{
-    padding: 1rem 0.5rem;
-}
+
 section .row{
     margin: 0 -0.5rem ;
 }
 
 
 /* section1 */
-.section-1 .button{
+.section-1 .info .button,
+.section-1 .info .button i{
     background-color: #0084FD;
     color: white
 }
@@ -52,9 +51,12 @@ section .row{
     width: 50%;
 }
 .section-1 .card i{
-    font-size: 4rem;
+    font-size: 5rem;
 }
-
+.section-1 h3,
+.section-1 i{
+    color: #0084FD;
+}
 
 
 /* section 2 */
@@ -62,8 +64,13 @@ section .row{
 .section-2 .left-column{
     margin: 0.5rem;
 }
-.section-2 .button{
-    display: block;
+
+.section-2 .card{
+    align-self: flex-end;
+}
+.section-2 .card .button{
+    background-color: #9792E4;
+    
 }
 
 /* section 3 */
@@ -171,6 +178,11 @@ footer{
 
     /*  main */
 
+    .section-2 .container,
+    .section-5 .container{
+        padding: 0 2rem;
+    }
+
     /* section1 */
     
 
@@ -178,24 +190,18 @@ footer{
         width: calc((100% / 2) - 1rem);
     }
 
-    .section-1 .big-card img{
-        width: 100%;
-    }
+
     /* section2 */
 
 
-    .section-2 .left-column,
-    .section-2 .card{
+    .section-2 .card-1-2{
         width: calc((100% / 2) - 1rem);
     }
-
-    .section-2 .container,
-    .section-5 .container{
-        padding: 0 2rem;
+    .section-2 .card .img{
+        text-align: center;
     }
-
-    .section-2 .row{
-        align-content: flex-end;
+    .section-2 .card img{
+        width: 75%;
     }
 
     /* section4 */
@@ -212,4 +218,8 @@ footer{
     .section-5 .card-1-3{
         width: calc((100% / 3) - 1rem);
     }
+
+
+
+
 }
