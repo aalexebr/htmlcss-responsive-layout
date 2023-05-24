@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
     
 }
 /* DEBUG */
@@ -43,7 +44,10 @@ header .button{
 .section-1 .info .button,
 .section-1 .info .button i{
     background-color: #0084FD;
-    color: white
+    color: white;
+}
+.section-1 .info .button{
+    padding: 0.3rem 1.5rem;
 }
 .section-1 .big-card{
     padding-bottom: 0;
@@ -127,6 +131,10 @@ header .button{
     color: white;
     padding: 0.3rem 2rem;
 }
+.section-4 h2{
+    color: white;
+}
+
 
 /* section5 */
 
@@ -151,7 +159,13 @@ header .button{
     background-color: #9792E4;
     color: white;
 }
-
+.section-5 .card p{
+    color: #9792E4;
+    font-weight: bold;
+}
+.section-5 h2{
+    color: #9792E4;
+}
 
 /* FOOTER */
 footer{
@@ -181,6 +195,9 @@ footer .button{
 footer a:not(.button){
     text-decoration: underline;
 }
+.bottom-footer a{
+    color: #0084FD;
+}
 
 /* 
     ------------------
@@ -206,7 +223,8 @@ section .row{
     margin: 0 -0.5rem ;
 }
 
-/* section2 */
+/* section2 TABLET */
+
 .section-2 .card img,
 .section-2 .left-column img{
     width: 66%;
@@ -218,7 +236,9 @@ section .row{
     left: 50%;
     transform: translate(-50% , 0);
 }
-/* section3 */
+
+
+/* section3 TABLET*/
 
 .businesscard .info{
     width: 75%;
@@ -228,19 +248,21 @@ section .row{
     padding-left: 4rem;
 }
 
-/* section4 */
+/* section4 TABLET*/
 
 .section-4 .card-1-2,
 .section-5 .card-1-2{
     width: calc((100% / 2) - 1rem);
 }
 
-/* section5 */
+/* section5 TABLET*/
 
-/* .section-5 .card-1-2{
-    width: calc((100% / 2) - 1rem);
-} */
 
+/* footer TABLET*/
+footer .container{
+    width: 75%;
+    margin: auto;
+}
 
 }
 
@@ -254,7 +276,7 @@ section .row{
         margin: auto;
     }
     
-    /* header */
+    /* header DESKTOP*/
     
     nav,
     li{
@@ -269,14 +291,14 @@ section .row{
     }
 
 
-    /*  main */
+    /*  main DESKTOP*/
 
     .section-2 .container,
     .section-5 .container{
         padding: 0 5rem;
     }
 
-    /* section1 */
+    /* section1 DESKTOP*/
     
 
     .section-1 .big-card .card-1-2,
@@ -288,25 +310,17 @@ section .row{
     }
     
 
-    /* section2 */
+    /* section2 DESKTOP*/
 
     .right-column{
         align-self: flex-end;
     }
     
-    /* .section-2 .card-1-2{
-        width: calc((100% / 2) - 1rem);
-    } */
-    /* .section-2 .card .img{
-        text-align: center;
-    } */
-    /* .section-2 .card img{
-        width: 75%;
-    } */
+    
     .section-2 .left-column img{
         width: 100%;
     }
-    /* section4 */
+    /* section4 DESKTOP*/
 
     .section-4 .card-1-3,
     .section-5 .card-1-3{
@@ -314,7 +328,7 @@ section .row{
     }
 
 
-    /* section5 */
+    /* section5 DESKTOP*/
     .section-5 .big-card{
         width: calc(((100% / 3) * 2) - 1rem);
     }
@@ -322,7 +336,7 @@ section .row{
         width: calc((100% / 3) - 1rem);
     } */
 
-
+    /*  footer */
 
 
 }
