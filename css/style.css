@@ -207,15 +207,26 @@ section .row{
 }
 
 /* section2 */
-
-
+.section-2 .card img,
+.section-2 .left-column img{
+    width: 66%;
+}
+.section-2 .left-column img{
+    
+    position: relative;
+    top: 0;
+    left: 50%;
+    transform: translate(-50% , 0);
+}
 /* section3 */
 
 .businesscard .info{
     width: 75%;
     align-self: center;
 }
-
+.businesscard p{
+    padding-left: 4rem;
+}
 
 /* section4 */
 
@@ -242,7 +253,7 @@ section .row{
         max-width: 1000px;
         margin: auto;
     }
-
+    
     /* header */
     
     nav,
@@ -262,7 +273,7 @@ section .row{
 
     .section-2 .container,
     .section-5 .container{
-        padding: 0 2rem;
+        padding: 0 5rem;
     }
 
     /* section1 */
@@ -272,22 +283,29 @@ section .row{
     .section-2 .card-1-2{
         width: calc((100% / 2) - 1rem);
     }
-    
+    .section-1 .card{
+        padding-bottom: 0;
+    }
     
 
     /* section2 */
 
-
+    .right-column{
+        align-self: flex-end;
+    }
+    
     /* .section-2 .card-1-2{
         width: calc((100% / 2) - 1rem);
     } */
     /* .section-2 .card .img{
         text-align: center;
     } */
-    .section-2 .card img{
+    /* .section-2 .card img{
         width: 75%;
+    } */
+    .section-2 .left-column img{
+        width: 100%;
     }
-
     /* section4 */
 
     .section-4 .card-1-3,
