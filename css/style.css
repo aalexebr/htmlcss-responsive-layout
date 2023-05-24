@@ -86,6 +86,9 @@ header .button{
 .section-2 p{
     margin-bottom: 0;
 }
+.section-2 .left-column {
+    color: white;
+}
 
 /* section 3 */
 .section-3 div{
@@ -137,7 +140,9 @@ header .button{
 .section-4 h2{
     color: white;
 }
-
+.card .number{
+    font-weight: bold;
+}
 
 /* section5 */
 
@@ -165,6 +170,7 @@ header .button{
 .section-5 .card p{
     color: var(--main-color);
     font-weight: bold;
+    line-height: normal;
 }
 .section-5 h2{
     color: var(--main-color);
@@ -178,6 +184,9 @@ footer{
 .top-footer{
     background-color: var(--main-color);
 }
+.top-footer *{
+    margin: 1rem 0;
+}
 .bottom-footer{
     background-color: #333333;
 }
@@ -187,12 +196,12 @@ footer{
 .free{
     color: #FDC15F;
     font-size: 4rem;
-    margin-bottom: 0.75rem;
+    line-height: 4rem;
 }
 footer .button{
     background-color: white;
     color: var(--main-color);
-    padding: 0.75rem 1rem;
+    padding: 0.75rem 1.5rem;
     font-weight: bold;
 }
 footer a:not(.button){
