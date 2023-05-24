@@ -6,12 +6,11 @@
     font-family: 'Open Sans', sans-serif;
     
 }
-/* DEBUG */
 
  
 /* HEADER */
 header{
-    background-color: #0084FD;
+    background-color: var(--third-color);
     color: white;
     padding: 0.5rem;
 
@@ -43,7 +42,7 @@ header .button{
 /* section1 */
 .section-1 .info .button,
 .section-1 .info .button i{
-    background-color: #0084FD;
+    background-color: var(--third-color);
     color: white;
 }
 .section-1 .info .button{
@@ -63,7 +62,7 @@ header .button{
 }
 .section-1 h3,
 .section-1 i{
-    color: #0084FD;
+    color: var(--third-color);
 }
 
 
@@ -84,7 +83,9 @@ header .button{
     left: 50%;
     transform: translate(-50% , 0);
 }
-
+.section-2 p{
+    margin-bottom: 0;
+}
 
 /* section 3 */
 .section-3 div{
@@ -92,11 +93,13 @@ header .button{
 }
 
 .section-3 h2{
-    color: #9792E4;
+    color: var(--main-color);
 }
 .section-3 span{
     text-transform: uppercase;
-
+}
+.section-3 div > span:first-child{
+    font-size: 0.65rem;
 }
 
 .businesscard{
@@ -105,7 +108,7 @@ header .button{
     justify-content: center;
 }
 .businesscard.card{
-    background-color: #9792E4;
+    background-color: var(--main-color);
     color: white;
 }
 
@@ -122,10 +125,10 @@ header .button{
 }
 .section-4 .card span:first-of-type{
     font-size: 4rem;
-    color: #9792E4;
+    color: var(--main-color);
 }
 .section-4 .card h3{
-    color: #9792E4;
+    color: var(--main-color);
 }
 .section-4 .card .button{
     color: white;
@@ -152,19 +155,19 @@ header .button{
     position: absolute;
     top: 0;
     right: 0;
-    color: #9792E4;
+    color: var(--main-color);
     font-size: 2rem;
 }
 .section-5 .button{
-    background-color: #9792E4;
+    background-color: var(--main-color);
     color: white;
 }
 .section-5 .card p{
-    color: #9792E4;
+    color: var(--main-color);
     font-weight: bold;
 }
 .section-5 h2{
-    color: #9792E4;
+    color: var(--main-color);
 }
 
 /* FOOTER */
@@ -173,7 +176,7 @@ footer{
     color: white;
 }
 .top-footer{
-    background-color: #9792E4;
+    background-color: var(--main-color);
 }
 .bottom-footer{
     background-color: #333333;
@@ -188,7 +191,7 @@ footer{
 }
 footer .button{
     background-color: white;
-    color: #9792E4;
+    color: var(--main-color);
     padding: 0.75rem 1rem;
     font-weight: bold;
 }
@@ -196,7 +199,11 @@ footer a:not(.button){
     text-decoration: underline;
 }
 .bottom-footer a{
-    color: #0084FD;
+    color: var(--third-color);
+}
+
+footer p:first-of-type{
+    margin-bottom: 4rem;
 }
 
 /* 
